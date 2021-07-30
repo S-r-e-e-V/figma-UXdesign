@@ -2,6 +2,7 @@ import linkedIn from "./linkedin.jpg";
 import profileBackground from "./bg.jpg";
 import figma from "./figma.png";
 import eyeIcon from "./eye_icon.png";
+import eyeIconWhite from "./eye_icon-white.png";
 import homeIcon from "./home_icon.png";
 import personIcon from "./person_icon.png";
 import networkIcon from "./network_icon.png";
@@ -19,6 +20,8 @@ import behance from "./behance.png";
 import overlapStudio from "./overlap_studio.png";
 import adobe from "./adobe.png";
 import medium from "./medium.png";
+import newTab from "./new-tab.png";
+import rightArrow from "./right-arrow.png";
 export default {
   linkedIn: linkedIn,
   profileBackground: profileBackground,
@@ -41,4 +44,7 @@ export default {
   adobe: adobe,
   slack: slack,
   medium: medium,
+  eyeIconWhite: eyeIconWhite,
+  newTab: newTab,
+  rightArrow: rightArrow,
 };

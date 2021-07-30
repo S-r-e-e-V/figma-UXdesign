@@ -57,9 +57,17 @@
   cursor: pointer;
   color: var(--dark-blue);
   padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.profile-info .profile-details .employees img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
 }
 .profile-info .profile-details .btns {
   display: flex;
+  align-items: center;
   font-weight: 600;
   padding: 10px 0px;
 }
@@ -75,6 +83,7 @@
   color: var(--white);
   margin: 10px 10px 10px 0px;
 }
+
 .profile-info .profile-details .btns .website {
   cursor: pointer;
   background-color: var(--white);
@@ -87,6 +96,12 @@
   border-radius: 3px;
   margin: 10px;
   border: solid var(--dark-blue) 2px;
+}
+.profile-info .profile-details .btns .follow img,
+.profile-info .profile-details .btns .website img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
 }
 .profile-info .profile-details .btns .dots {
   cursor: pointer;

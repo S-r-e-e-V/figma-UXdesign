@@ -19,12 +19,16 @@ export default function ProfileInfo() {
         <span className="designation">
           Design . San Francisco,CA . 101,282 followers
         </span>
-        <div className="employees">See all 358 enployees on the LinkedIn</div>
+        <div className="employees">
+          See all 358 enployees on the LinkedIn <img src={Images.rightArrow} />
+        </div>
         <div className="btns">
           <div className="follow">
+            <img src={Images.eyeIconWhite} />
             <span>Follow</span>
           </div>
           <div className="website">
+            <img src={Images.newTab} />
             <span>Visit website</span>
           </div>
           <div className="dots">
