@@ -1,0 +1,26 @@
+.profile {
+  margin: 20px 50px;
+  display: flex;
+}
+.profile .container-1 {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  margin-right: 30px;
+}
+.profile .container-2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.profile .recommendations {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: var(--white);
+  border-radius: 6px;
+}
+.profile .recommendations .title {
+  font-weight: 600;
+  padding-bottom: 15px;
+}

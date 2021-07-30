@@ -1,0 +1,11 @@
+.no-match {
+  color: var(--dark-blue);
+  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-match > span:first-child {
+  font-size: 100px;
+}

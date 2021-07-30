@@ -1,0 +1,32 @@
+.linkedinfo-box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.linkedinfo-box img {
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.linkedinfo-box .profile-name {
+  font-weight: 600;
+  font-size: 17px;
+}
+.linkedinfo-box .sub-section {
+  color: var(--dark-gray);
+  font-size: 14px;
+}
+.linkedinfo-box .sub-section .dot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--dark-gray);
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 5px;
+}
+.linkedinfo-box .view-more {
+  cursor: pointer;
+  margin-left: auto;
+  width: 25px;
+}
